@@ -5,128 +5,213 @@
 <head>
   <link rel="stylesheet" href="style.css">
 
-<title>Resume/CV Design</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<style media="screen">
+  .resume-box{
+    background-color: white;
+    height:1350px;
+    margin:0 auto;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 300px 950px;
+    grid-template-rows: 150px 1150px;
+
+  }
+  .intro{
+      background-color: #EEA47FFF;
+  }
+  .box-outer{
+    padding: 30px;
+    background-color: white;
+  }
+
+  .box-1{
+  background-color: #00539CFF;
+  height: 100%;
+  grid-column: 1/2;
+  grid-row: 1/3;
+  }
+  .t td{
+      border-right: solid 3px black;
+      border-left: solid 3px black;
+    }
+  .box-2{
+    float: left;
+    padding:20%;
+    grid-column: 2/2;
+    grid-row: 2/3;
+    background-color: #EEA47FFF;
+  }
+
+  .content ul {
+    list-style: none; /* Remove default bullets */
+  }
+
+  .content ul li::before {
+    content: "\2022";
+    color: #00539CFF;
+    font-weight: bold;
+    display: inline-block;
+    width: 0em;
+    margin-left: 0em;
+    padding-left: 0px;
+  }
+
+
+  .intro{text-align: center;}
+  .intro h1{
+    font-size: 40px;
+    font-weight: bold;;
+    color: #00539CFF;
+
+  }
+  .hr{
+    height: 20px;
+    border : none;
+    background-color: white;
+  }
+  h2{
+    color: #00539CFF;
+      font-family: sans-serif;
+  }
+  h3,h5{
+    color: white;
+    font-family: sans-serif;
+  }
+
+</style>
+<title>Resume/CV</title>
 
 </head>
 
  <body>
     <div class="box-outer">
         <div class="resume-box">
+
+
           <div class="box-1">
-             <img src="myfac.jpg" class="myface"alt="">
+             <img src="eye.png" class="myface" alt="" align="center">
              <div class="content">
                <h1>ABOUT ME</h1>
-               <p>I am able to handle multiple tasks on a daily basis.I use a creative approach to problem solve.I am a dependable person who is great at time management.I am always energetic and eager to learn new skills
-
-
-               <br><br>
+               <p>I am able to handle multiple tasks on a daily basis.I use a creative approach to problem solve.I am a dependable person who is great at time management.I am always energetic and eager to learn new skills<br><br>
                Flexible <br>
-Hardworking <br>
-Honest
+               Hardworking <br>
+               Honest
                </p>
+<br> <br>
                <h1>Skills</h1>
                <p>C</p>
                <div id="progress1">
-
                </div>
-               <p>ML</p>
+
+               <p>Web</p>
                <div id="progress2">
 
                </div>
                <p>JAVA</p>
                <div id="progress3">
-
                </div>
 
-             <p>AI</p>
-             <div id="progress4">
-             </div>
-             <h1>Hobbies</h1>
-             <ul style="list-style-type:square;">
-              <li style="color:white">Internet Surfing</li>
-              <li style="color:white">Data mining</li>
-
-             </ul>
-
-
-
+               <p>ML</p>
+               <div id="progress4">
+               </div>
+               <br><br><br><br>
+               <h1>Hobbies</h1>
+               <ul style="list-style-type:square;">
+               <li style="color:white">Internet Surfing</li>
+               <li style="color:white">coding</li>
+               </ul>
              </div>
            </div>
 
+
+           <div class="intro">
+             <h1>GUMMADIDALA DILEEPCHANDU</h1>
+             <h3>20BCI7313</h3>
+           </div>
 
            <div class="box-2">
-             <div class="intro">
-               <h1>GUMMADIDALA DILEEPCHANDU</h1>
-               <hr class="hr"/>
+                          <div class="intro-details">
+                           <table align="center">
+                             <tr>
+                               <td align="center"><h2>Career Object</h2>
+                               <hr width="150px"/></td>
+                               <td align="center"><h2>Contact</h2>
+                               <hr width="100px"/></td>
+                             </tr>
+                             <tr>
+                               <td>I am able to handle multiple tasks on a daily basis.I use a creative approach to problem solve.I am a dependable person who is great at time management.I am always energetic and eager to learn new skills</td>
+                               <td>
+
+<i class="fa fas fa-envelope"></i>
+                                      <a href="#">gummadidaladileepchand@gmail.com</a><br>
+                                      <i class="fa fas fa-mobile"></i><a href="#">+917416935925</a><br>
+                                      <i class="fa fa-map-marker" aria-hidden="true"></i><a href="#">Vijayawada-521211,Ap</a>
 
 
-             </div>
-             <div class="intro-details">
+                              </td>
+                            </tr>
+                          </table><br><br><br>
 
-
-             <h2>DETAILS</h2>
-
-                 <p>Kummari street,patha edara,India-521211</p>
-                <p>Phone No:+91 7416-935-923</p>
-                <p>Gmail:gummadidaladileepchandu@gmail</p>
-             </div>
-
-                <div class="intro-project">
-
-
-                <h2>PROJECTS</h2>
-
-                    <p>Machine Learing:</p>
-                      <ol>
-                        <li>Crop Prediction</li>
-                        <li>Disease Prediction</li>
-                      </ol>
-
-                   <p>Website Development</p>
-                 </div>
-                 <div class="intro-education">
-
-
-                 <h2>EDUCATION</h2>
-
-  <p>Btech       :cse-AI 9.12Points</p>
-    <p>Intermediate:MPC 9.89Points</p>
-      <p>Thenth      :SSC 10Points</p>
-
-
-
-
-
-                  </div>
-                  <div class="Certificate">
-                    <h2>CERTIFICATE</h2>
-                    <p>Coursera:Intro To ML(DUKE Universitys)</p>
-
-                  </div>
-                </div>
-                <div class="intrest">
-                  <h2>INTREST</h2>
-                  <p>Developing Code</p>
-                  <p>Reading ML Thiese</p>
-
-                </div>
+                           <table align="center" class="t">
+                             <tr>
+                               <td align="center"><h2>Education</h2><hr width="200px"/></td>
+                               <td align="center"><h2>Addition Skills</h2><hr width="200px"/></td>
+                               <td align="center"><h2>Certification</h2><hr width="200px"/></td>
+                             </tr>
+                             <tr>
+                               <td>
+                                 <p>Btech:cse-AI 9.12</p>
+                                 <p>Intermediate:MPC 9.89</p>
+                                 <p>Thenth      :SSC 10</p>
+                               </td>
+                               <td>
+                                 <p>Analytical Thinking</p>
+                                 <p>Strong Communication</p>
+                                 <p>Problem Sloving</p>
+                               </td>
+                               <td>
+                                 <p>TieIn Web Develpoment</p>
+                                 <p>Duke University-Ml</p>
+                                 <p>Micrsoft Azure Fundametals</p>
+                               </td>
+                             </tr>
+                           </table><br><br><br><br>
 
 
 
 
+                           <h2 align="center">Experience<hr/></h2>
+                           <table align="center">
+                             <tr>
+                               <td align="center"> <h3>Sep-2017 Present</h3><hr width="100px"> </td>
+                               <td><h4>Admistrative asitent</h4>Redfort $ Son Boston,MA
+                               </td>
+                             </tr>
+                             <tr>
+                               <td><br/></td>
+                               <td rowspan="2">  <ul>
+                                    <li>Schedule and coordinate meetings, appointments, and travel arrangements for supervisors, managers, and C-level executives</li>
+                                     <li>Trained 2 administrative assistants during a period of company expansion to ensure attention to detail and adherence to company</li>
+                                   <li>Developed new filing and organizational practices, saving the company $3,000 per year in contracted labor expenses</li>
+                                 </ul></td>
+                           </tr>
+                           </table>
+                           <table>
+                             <tr>
+                               <td><h3>Jun 2016 - Aug 2017</h3><hr width="100px"> </td>
+                               <td><h4>Sercreatary</h4> Bright spot ltd,Boston,MA</td>
+                             </tr>
+                           </table>
+                         </div>
+                        </div>
 
 
 
-
-
-               </div>
-             </div>
 
            </div>
-
-
-
-
-
+         </div>
 </body>
  </html>
